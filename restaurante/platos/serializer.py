@@ -1,7 +1,7 @@
 from rest_framework import serializers
-from .models import Product # type: ignore
+from .models import Plato
 
 class PlatoSerializer(serializers.ModelSerializer):
     class Meta:
-        model = Product
+        model = Plato
         fields = '__all__'
